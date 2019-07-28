@@ -21,7 +21,8 @@ shinyServer(function(input, output) {
   ## annotated df
   annotated_df_calculator <- reactive({
     
-    m_type = udpipe_load_model("https://github.com/shmanoj5/TA-assignment/blob/master/english-ewt-ud-2.4-190531.udpipe")
+    m_type = udpipe_load_model(source_data("https://github.com/shmanoj5/TA-assignment/blob/master/english-ewt-ud-2.4-190531.udpipe?raw=true")
+)
     
     x <- udpipe_annotate(m_type, x = dataset())
     x <- select(as.data.frame(x),-sentence)
