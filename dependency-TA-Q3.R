@@ -4,7 +4,6 @@ try(require(tm) || install.packages("tm"))
 try(require(tokenizers) || install.packages("tokenizers"))
 try(require(wordcloud) || install.packages("wordcloud"))
 try(require(slam) || install.packages("slam"))
-
 try(require(stringi) || install.packages("stringi"))
 try(require(magrittr) || install.packages("magrittr"))
 try(require(tidytext) || install.packages("tidytext"))
@@ -19,8 +18,6 @@ library(tm)
 library(tokenizers)
 library(wordcloud)
 library(slam)
-# Update test 123
-
 library(stringi)
 library(magrittr)
 library(tidytext)
