@@ -7,7 +7,7 @@
 #
 
 
-library("shiny")
+library(shiny)
 require(dplyr)
 require(magrittr)
 require(tidytext)
