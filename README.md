@@ -1,2 +1,1 @@
-# TA-assignment
-TA Assignment Shiny App
+$$ TEXT ANALYSIS
